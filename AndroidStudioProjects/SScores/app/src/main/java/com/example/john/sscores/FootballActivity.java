@@ -1,8 +1,8 @@
 package com.example.john.sscores;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.AsyncTask;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -20,11 +20,8 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.util.ArrayList;
 
-import static android.R.attr.id;
-
-public class FootballActivity extends AppCompatActivity {
+public class FootballActivity extends Activity {
     private TextView txtView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
